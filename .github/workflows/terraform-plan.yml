@@ -8,7 +8,7 @@ on:
 jobs:
   apply-infra:
     runs-on: ubuntu-latest
-    environment: production  # requires approval before running
+    environment: prod  # requires approval before running
     steps:
       - name: Checkout Repo
         uses: actions/checkout@v3
